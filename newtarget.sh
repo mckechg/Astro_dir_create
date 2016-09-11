@@ -1,4 +1,8 @@
 #/bin/bash
+#Created for Astophotographers to create a repeatable directory structure on OSX platform. (May work on Linux) 
+#Untested on Windows 10 with bash installed
+#Author Grant McKechnie @mckechg 
+
 clear
 #variables
 SESSION_DATE=`date "+%Y-%m-%d"`
