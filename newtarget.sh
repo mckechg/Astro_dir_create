@@ -3,8 +3,11 @@
 #Untested on Windows 10 with bash installed
 #Author Grant McKechnie @mckechg 
 
+##START SCRIPT##
+
+#clear the screen
 clear
-#variables
+#Set some variables
 SESSION_DATE=`date "+%Y-%m-%d"`
 DIR_STRUCT="${SESSION_DATE}/RAW/LIGHTS ${SESSION_DATE}/RAW/DARKS ${SESSION_DATE}/RAW/BIAS ${SESSION_DATE}/RAW/FLATS ${SESSION_DATE}/PROCESS/CALIBRATED ${SESSION_DATE}/PROCESS/REGISTERED ${SESSION_DATE}/PROCESS/ALIGNED ${SESSION_DATE}/PROCESS/WORKING"
 
